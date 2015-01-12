@@ -22,14 +22,8 @@ cherries+=(79582)
 # build: Add option to disable block-based ota
 cherries+=(78849)
 
-# Allow low RAM devices have multiple users
-cherries+=(78423)
-
-#bcmdhd: workaround for driver compiled as a module
-cherries+=(82598)
-
 # mtdutils: Fix mounting partitions by-name
-cherries+=(83404)
+(cherries+=(83404/1))
 
 # install: disable signature checking on eng and userdebug builds
 cherries+=(81797)
