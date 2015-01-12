@@ -8,7 +8,7 @@
    <project path="build" name="HtcLegacy/android_build" revision="cm-12.0" >
         <copyfile src="core/root.mk" dest="Makefile" />
    </project>
-   <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-11.0" />
+   <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.0" />
 <!-- Recovery -->
    <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-5.0" />
 <!-- display-caf -->
