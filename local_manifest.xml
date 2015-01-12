@@ -2,19 +2,21 @@
 <manifest>
 <!-- remove CM repos -->
    <remove-project name="CyanogenMod/android_build"/>
+   <remove-project name="CyanogenMod/android_frameworks_av"/>
    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 <!-- Hacked CM repos -->
-   <project path="build" name="Kirmaniarslan/android_build" revision="cm-12.0" >
+   <project path="build" name="HtcLegacy/android_build" revision="cm-12.0" >
         <copyfile src="core/root.mk" dest="Makefile" />
    </project>
+   <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-11.0" />
 <!-- Recovery -->
    <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-5.0" />
 <!-- display-caf -->
-   <project name="kirmaniarslan/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0-caf-msm7x27a" />
+   <project name="HtcLegacy/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0-caf-msm7x27a" />
 <!-- media-caf -->
-   <project name="kirmaniarslan/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.0-caf-legacy" />
+   <project name="HtcLegacy/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.0-caf-legacy" />
 <!-- Device Tree, Kernel and Vendor -->
-   <project path="device/htc/pico" name="kirmaniarslan/android_device_htc_pico" revision="cm-12.0" />
-   <project path="kernel/htc/pico" name="kirmaniarslan/android_kernel_htc_pico" revision="cm-12.0"/>
-   <project path="vendor/htc/pico" name="kirmaniarslan/vendor_htc_pico_proprietary" revision="android-5.0" />
+   <project path="device/htc/pico" name="HtcLegacy/android_device_htc_pico" revision="cm-12.0" />
+   <project path="kernel/htc/pico" name="HtcLegacy/android_kernel_htc_pico" revision="cm-12.0"/>
+   <project path="vendor/htc/pico" name="HtcLegacy/vendor_htc_pico_proprietary" revision="android-5.0" />
 </manifest>
