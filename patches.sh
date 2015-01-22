@@ -23,9 +23,12 @@ cherries+=(79582)
 cherries+=(78849)
 
 # mtdutils: Fix mounting partitions by-name
-(cherries+=(83404/1))
+(cherries+=(83404/1)
 
 # install: disable signature checking on eng and userdebug builds
 cherries+=(81797)
+
+# lowmemorykiller: Overwrite LMK parameters for low-tier devices
+cherries+=(86327)
 
 ${android}/build/tools/repopick.py -b ${cherries[@]}
