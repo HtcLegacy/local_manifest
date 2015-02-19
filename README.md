@@ -6,7 +6,7 @@ The local manifests for building CM12 for HTC Explorer/Pico.
 To sync:
 -------
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.0
+    repo init -u https://github.com/TeamGlade/android.git -b lp5.0
     curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/HtcLegacy/local_manifest/glade5.0/local_manifest.xml
     repo sync
     
