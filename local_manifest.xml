@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- remove CM repos -->
+   <remove-project name="CyanogenMod/android_frameworks_av"/>
+<!-- Hacked CM repos -->
+   <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.0" />   
 <!-- display-caf -->
    <project name="HtcLegacy/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0-caf-msm7x27a" />
 <!-- media-caf -->
