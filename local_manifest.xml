@@ -2,7 +2,7 @@
 <manifest>
 <!-- remove CM repos -->
    <remove-project name="CyanogenMod/android_frameworks_av"/>
-   <remove-project name="CyanogenMod/android__hardware_qcom_display-caf" />
+   <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 <!-- Hacked CM repos -->
    <project path="frameworks/av" name="legacymod/android_frameworks_av" revision="cm-11.0" />
