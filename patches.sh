@@ -13,8 +13,6 @@ if [ "${android}" = "" ]; then
     android="${PWD}"
 fi
 
-# frameworks/av : Add back missing msm7x27a to fix compilation
-cherries+=(79582)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
