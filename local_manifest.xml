@@ -12,6 +12,6 @@
    <project name="kirmaniarslan/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-11.0" />
 <!-- Device Tree, Kernel and Vendor -->
    <project path="device/htc/pico" name="sachinthomaspj/android_device_htc_pico" revision="cm-11.0" />
-   <project path="kernel/htc/pico" name="kirmaniarslan/android_kernel_htc_pico" revision="cm-11.0"/>
+   <project path="kernel/htc/pico" name="kirmaniarslan/android_kernel_htc_pico" revision="cm-12.0"/>
    <project path="vendor/htc/pico" name="kirmaniarslan/vendor_htc_pico_proprietary" revision="android-4.4" />
 </manifest>
