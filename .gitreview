@@ -1,0 +1,5 @@
+[gerrit]
+host=htclegacy.tk
+port=29418
+project=local_manifest.git
+defaultbranch=cm-12.0
