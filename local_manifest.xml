@@ -9,7 +9,7 @@
 <!-- Recovery -->
    <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-4.4" />
 <!-- display-caf -->
-   <project path="_hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="cm-11.0" />
+   <project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="cm-11.0" />
 <!-- Device Tree, Kernel and Vendor -->
    <project path="device/htc/pico" name="sachinthomaspj/android_device_htc_pico" revision="cm-11.0" />
    <project path="kernel/htc/pico" name="kirmaniarslan/android_kernel_htc_pico" revision="cm-12.0"/>
