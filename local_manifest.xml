@@ -28,6 +28,8 @@
    <project path="device/htc/golfu" name="HtcLegacy/android_device_htc_golfu" revision="cm-12.0" />
    <project path="kernel/htc/golfu" name="HtcLegacy/android_kernel_htc_golfu" revision="cm-12.0" />
    <project path="vendor/htc/golfu" name="HtcLegacy/android_vendor_htc_golfu" revision="cm-12.0" />
+<!--GOLFU WiFi -->
+   <project path="hardware/atheros/wlan" name="Cyanogenmod/android_hardware_atheros_wlan" revision="cm-12.0" />
 <!-- Proto_U Device Tree, Kernel and Vendor -->
    <project path="device/htc/protou" name="HtcLegacy/android_device_htc_protou" revision="cm-12.0" />
    <project path="kernel/htc/protou" name="HtcLegacy/android_kernel_htc_protou" revision="cm-12.0" />
