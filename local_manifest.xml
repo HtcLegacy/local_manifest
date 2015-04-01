@@ -18,7 +18,7 @@
 <!-- PICO Device Tree, Kernel and Vendor -->
    <project path="device/htc/pico" name="HtcLegacy/android_device_htc_pico" revision="cm-12.1" />
    <project path="kernel/htc/pico" name="HtcLegacy/android_kernel_htc_pico" revision="cm-12.1"/>
-   <project path="vendor/htc/pico" name="HtcLegacy/android_vendor_htc_golfu" revision="cm-12.1" />
+   <project path="vendor/htc/pico" name="HtcLegacy/android_vendor_htc_pico" revision="cm-12.1" />
 <!-- GOLFU Device Tree, Kernel and Vendor
    <project path="device/htc/golfu" name="HtcLegacy/android_device_htc_golfu" revision="cm-12.1" />
    <project path="kernel/htc/golfu" name="HtcLegacy/android_kernel_htc_golfu" revision="cm-12.1" />
