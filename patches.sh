@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ -f ~/bin/paths-12.0.sh ]; then
-    source ~/bin/paths-12.0.sh
+if [ -f ~/bin/paths-12.1.sh ]; then
+    source ~/bin/paths-12.1.sh
 fi
 
 if [ ! -d ".repo" ]; then
@@ -12,6 +12,12 @@ fi
 if [ "${android}" = "" ]; then
     android="${PWD}"
 fi
+
+# audio: Make getPresentationPosition pure virtual
+cherries+=(92978)
+
+# audio: Initialized mAttributes in AudioTrack
+cherries+=(92977)
 
 
 if [ -z $cherries ]; then
