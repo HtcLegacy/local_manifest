@@ -10,16 +10,15 @@ To sync:
     curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/HtcLegacy/local_manifest/cm-12.1/local_manifest.xml
     repo sync
     
-Applying Patches :
+Picking cherries from Cyanogenmod :
 ----------------
-place patches.sh file in your directory where u have synced the sources of Rom
-
-    chmod 775 patches.sh
-    ./patches.sh
+   
+   repopick 92978
+  
 
 To Build :
 --------
 
     sh vendor/cm/get-prebuilts
     source build/envsetup.sh
-    brunch pico 
+    brunch cm_pico-userdebug 
