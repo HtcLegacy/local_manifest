@@ -10,7 +10,7 @@
         <copyfile src="core/root.mk" dest="Makefile" />
    </project>
    <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.1" />
-   <project path="frameworks/av" name="HtcLegacy/android_frameworks_native" revision="cm-12.1" />
+   <project path="frameworks/native" name="HtcLegacy/android_frameworks_native" revision="cm-12.1" />
 <!-- Recovery -->
    <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-5.0" />
 <!-- display-caf -->
