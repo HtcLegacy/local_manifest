@@ -5,6 +5,8 @@
    <remove-project name="CyanogenMod/android_frameworks_av"/>
 <!-- Hacked CM repos -->
    <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.1" />
+<!-- OTAUpdates -->
+   <project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" revision="aosp" />
 <!-- Recovery -->
    <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-5.0" />
 <!-- display-caf -->
